@@ -1,8 +1,7 @@
 package main
 
 import (
-	/*"github.com/godesde0/variables"*/
-	"github.com/godesde0/teclado"
+	"github.com/godesde0/ejercicios"
 )
 
 // Funcion main de go
@@ -30,5 +29,8 @@ func main() {
 		fmt.Println(numero)
 		fmt.Println(text)
 	*/
-	teclado.IngresoNumerico()
+	/*
+		teclado.IngresoNumerico()
+	*/
+	ejercicios.IngreseNumeroTeclado()
 }
