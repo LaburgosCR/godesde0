@@ -1,9 +1,8 @@
 package main
 
 import (
-	"fmt"
 	/*"github.com/godesde0/variables"*/
-	"github.com/godesde0/ejercicios"
+	"github.com/godesde0/teclado"
 )
 
 // Funcion main de go
@@ -26,7 +25,10 @@ func main() {
 		fmt.Printf("%s \n", os)
 	}
 	*/
-	numero, text := ejercicios.ConverNum("700")
-	fmt.Println(numero)
-	fmt.Println(text)
+	/*
+		numero, text := ejercicios.ConverNum("500")
+		fmt.Println(numero)
+		fmt.Println(text)
+	*/
+	teclado.IngresoNumerico()
 }
