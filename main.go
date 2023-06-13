@@ -1,5 +1,9 @@
 package main
 
+import (
+	"github.com/godesde0/defer_panic"
+	/*"github.com/godesde0/models"*/)
+
 // Funcion main de go
 func main() {
 	/*estado, texto := variables.ConviertoaText(1588)
@@ -33,4 +37,11 @@ func main() {
 	/*files.LeoArchivo()*/
 	/*mapas.MostrarMapas()*/
 	/*users.AlraUsuario()*/
+	/*
+		Pedro := new(models.Hombre)
+		e.HumanosRespirando(Pedro)
+		Maria := new(models.Mujer)
+		e.HumanosRespirando(Maria)
+	*/
+	defer_panic.EjemploPanic()
 }
