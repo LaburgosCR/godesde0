@@ -1,10 +1,5 @@
 package main
 
-import (
-	e "github.com/godesde0/ejercicios_interfaces"
-	"github.com/godesde0/models"
-)
-
 // Funcion main de go
 func main() {
 	/*estado, texto := variables.ConviertoaText(1588)
@@ -38,9 +33,4 @@ func main() {
 	/*files.LeoArchivo()*/
 	/*mapas.MostrarMapas()*/
 	/*users.AlraUsuario()*/
-	Pedro := new(models.Hombre)
-	e.HumanosRespirando(Pedro)
-
-	Maria := new(models.Mujer)
-	e.HumanosRespirando(Maria)
 }

@@ -10,14 +10,14 @@ type Hombre struct {
 	vivo       bool
 }
 
-func (hombre *Hombre) Respirar() {
-	hombre.respirando = true
+func (h *Hombre) Respirar() {
+	h.respirando = true
 }
-func (hombre *Hombre) Comer() {
-	hombre.comiendo = true
+func (h *Hombre) Comer() {
+	h.comiendo = true
 }
-func (hombre *Hombre) Pensar() {
-	hombre.pensando = true
+func (h *Hombre) Pensar() {
+	h.pensando = true
 }
 func (hombre *Hombre) Sexo() string {
 	return "Hombre"
