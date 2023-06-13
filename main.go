@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/godesde0/mapas"
+	"github.com/godesde0/users"
 )
 
 // Funcion main de go
@@ -35,6 +35,7 @@ func main() {
 	/*fmt.Println(ejercicios.IngreseNumeroTeclado())*/
 	/*files.SumaTabla()*/
 	/*files.LeoArchivo()*/
-	mapas.MostrarMapas()
+	/*mapas.MostrarMapas()*/
+	users.AlraUsuario()
 
 }
