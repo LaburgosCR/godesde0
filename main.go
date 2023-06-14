@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/godesde0/webserver"
+	"github.com/godesde0/middlewares"
 	/*"github.com/godesde0/models"*/)
 
 // Funcion main de go
@@ -51,5 +51,6 @@ func main() {
 		}()
 		fmt.Println("estoy aqui")
 	*/
-	webserver.MiWebServer()
+	/*webserver.MiWebServer()*/
+	middlewares.MiMiddleware()
 }
