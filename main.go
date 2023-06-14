@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/godesde0/defer_panic"
+	"github.com/godesde0/webserver"
 	/*"github.com/godesde0/models"*/)
 
 // Funcion main de go
@@ -43,5 +43,13 @@ func main() {
 		Maria := new(models.Mujer)
 		e.HumanosRespirando(Maria)
 	*/
-	defer_panic.EjemploPanic()
+	/*
+		canal1 := make(chan bool)
+		go goroutines.MiNombreLento("Luis Diego", canal1)
+		defer func() {
+			<-canal1
+		}()
+		fmt.Println("estoy aqui")
+	*/
+	webserver.MiWebServer()
 }
